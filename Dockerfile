@@ -28,6 +28,7 @@ RUN apt-get update \
     libjemalloc-dev \
     imagemagick \
     git \
+    tzdata \
   && rm -rf /var/lib/apt/lists/*
 
 # skip installing gem documentation
